@@ -4,8 +4,21 @@
 # Log file
 *.log
 
+# Ignore VSCode settings folder
+.vscode/
+
+# Ignore IDE workspace files
+*.code-workspace
+
 # BlueJ files
 *.ctxt
+
+# Gradle
+.gradle
+build/
+
+# Maven
+target/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
