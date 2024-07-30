@@ -56,7 +56,7 @@ String[][][] targetCustomers = new String[][][]{
   {
     {"Tim Walker"},
     {
-      "Sue Smith", null, "Picies", "5", "3.9", "true", "cat"
+      "Sue Smith", null, "Pisces", "5", "3.9", "true", "cat"
     },
     {"Capricorn"},
     {"6"},
