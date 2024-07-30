@@ -1,4 +1,4 @@
-# Replacement (with TYPES)#
+# Replacement (with TYPES)
 This assignment asks you to imagine that you need to send an email to a lot of different people.
 For the most part, that email is the same for all the people, excpet for their name and a few other details that are specific to each person.
 * Write a fictional email that may need to be sent to more than 10 people.
@@ -49,6 +49,23 @@ String[][] targetCustomers = new String[][]{
 };
 ```
 
+# Process 3 Dimensions
+Let's get even more real-world and imagine we want to market to all the freinds of each person in our list. To do so, we will need to add a element in the array that is itself a list!
+```
+String[][][] targetCustomers = new String[][][]{
+  {
+    {"Tim Walker"},
+    {
+      "Sue Smith", null, "Picies", "5", "3.9", "true", "cat"
+    },
+    {"Capricorn"},
+    {"6"},
+    ...
+  },
+  ...
+};
+```
+To make things a little less tedious, you now only need 5 contacts and only 3 of them need to have friends, but at least one of those should have at least 2 friends. The friends do not need freinds.
 
 ## Submission
 Once you have completed the assignment, create a pull request to submit your code. Please ensure your code is well-documented and follows the coding standards discussed in class.
