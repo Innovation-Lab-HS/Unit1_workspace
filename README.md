@@ -42,10 +42,12 @@ Of course you wouldn't want to send the same person the same email, instead you 
 
 # Process 2 Dimensions
 Instead of using the same PROPERTIES for each email recipient, let's make new properties for each person in your list. This will require a list-of-list or a 2 diemensional array of Strings.
-''' String[][] targetCustomers = [
-'''   [ "Tim Walker", "Capricorn", "6", "2.7", "false", "dog" ];
-'''   ...
-''' ];
+```
+String[][] targetCustomers = new String[][]{
+  { "Tim Walker", "Capricorn", "6", "2.7", "false", "dog" },
+  ...
+};
+```
 
 
 ## Submission
