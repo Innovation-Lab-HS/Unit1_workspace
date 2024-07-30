@@ -6,7 +6,7 @@ For the most part, that email is the same for all the people, excpet for their n
   * At least one varrialbe should be a string
   * At least one varriable should be a double
   * At least one varriable should be an int
-  * At least on varriable should be a boolean
+  * At least one varriable should be a boolean
 * Create static final constant varriables for each of these for some specific person you invent
 * Make sure the code compiles, runs, and shows a visually satisfying email in the command console.
   
