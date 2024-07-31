@@ -24,7 +24,7 @@
         },
         {
             "type": "java",
-            "name": "lessont",
+            "name": "lesson",
             "request": "launch",
             "mainClass": "org.junit.platform.console.ConsoleLauncher",
             "projectName": "lesson",
