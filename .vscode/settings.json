@@ -16,6 +16,7 @@
         "**/.vscode": true,
         "**/.github": true,
         "**/.devcontainer": true,
+        "**/.gitignore": true,
     },
     // Java language-specific settings
     "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
