@@ -13,7 +13,7 @@
         "**/node_modules": true,
         "**/target": true,
         "**/build": true,
-        "**/.vscode": false,
+        "**/.vscode": true,
         "**/.github": true,
         "**/.devcontainer": true,
     },
