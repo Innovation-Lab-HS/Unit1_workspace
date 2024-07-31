@@ -13,7 +13,9 @@
         "**/node_modules": true,
         "**/target": true,
         "**/build": true,
-        "**/.vscode": false
+        "**/.vscode": false,
+        "**/.github": true,
+        "**/.devcontainer": true,
     },
     // Java language-specific settings
     "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
