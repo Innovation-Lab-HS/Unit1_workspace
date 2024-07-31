@@ -9,12 +9,16 @@
       "label": "desktop"
     }
   },
-  "postCreateCommand": "export DISPLAY=:1 && Xvfb :1 -screen 0 1024x768x16 &",
-  "extensions": [
-    "vscjava.vscode-java-pack",
-    "redhat.java",
-    "vscjava.vscode-java-debug",
-    "vscjava.vscode-java-dependency",
-    "vscjava.vscode-java-test"
-  ]
+  "postCreateCommand": "apt-get update && apt-get install -y xvfb x11-apps && echo 'export DISPLAY=:1' >> /etc/profile && (Xvfb :1 -screen 0 1024x768x16 &)",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "redhat.java",
+        "vscjava.vscode-java-debug",
+        "vscjava.vscode-java-dependency",
+        "vscjava.vscode-java-test"
+      ]
+    }
+  }
 }
