@@ -6,6 +6,7 @@
 
 # Ignore VSCode settings folder
 .vscode/
+.vscode/launch.json
 
 # Ignore IDE workspace files
 *.code-workspace
