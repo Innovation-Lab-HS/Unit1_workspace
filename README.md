@@ -15,7 +15,3 @@ Whichever .java file you have open in the active window is the one that will run
 
 ## Submission
 Create a pull request to submit your code for your instructor's review or feedback. (_Details will be given in class, and we'll all be figuring out what works best as we go along!_)
-
-## Resources
-- [Java Documentation](https://docs.oracle.com/en/java/)
-- [GitHub Guide: Forking Projects](https://guides.github.com/activities/forking/)
