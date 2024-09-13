@@ -1,10 +1,20 @@
-# About this Template
-This Repo Template is designed to make it easy for students to move back and forth between VSCode on-line and VSCode on the desktop.  It also includes "Desktop-Lite" for the on-line VSCode deployment, which allows Java GUIs (or any other GUIs) to be displayed throught the browser event when they are being launched from a cloud VM. It also includes a handful of basic Java plugins for both VSCode on-line and VSCode desktop to help keep the environments consistent. Finially, it includes some .vscode setting to help hide some of this configuration noise from the students.
+# Unit 1 Workspace
+Use this workspace to write code during demos and for your own practice and experimenting.
 
-TODO: This template does not yet include a good example of a testing setup.
+## Writing a program
+* Create a Java code file - `YourProgramNameHere.java` in src/main/...
+* Write code within that file as demonstrated in class
+* With the code you wrote still showing in the editing window, press the play button (triangle/arrow) in the top right corner
+
+You can write as many programs as you like here! (_We'll learn better / more structured ways to organize things later, but the approach below should work for starters_):
+* In src/main/..., create a new .java file for each program, giving it a name different than any existing program files in this workspace
+* Write your code within the file
+* Press the play button
+
+Whichever .java file you have open in the active window is the one that will run when you press play.
 
 ## Submission
-Once you have completed the assignment, create a pull request to submit your code. Please ensure your code is well-documented and follows the coding standards discussed in class.
+Create a pull request to submit your code for your instructor's review or feedback. (_Details will be given in class, and we'll all be figuring out what works best as we go along!_)
 
 ## Resources
 - [Java Documentation](https://docs.oracle.com/en/java/)
